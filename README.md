@@ -37,7 +37,8 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 <p align="center">
   <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_M_F.png?raw=true" width="400"/>
 </p>  
-**Insight**: Roughly **26.5% of customers churned**, while 73.5% stayed. This represents a massive recurring revenue loss if unmanaged.  
+
+*Insight*: Roughly **26.5% of customers churned**, while 73.5% stayed. This represents a massive recurring revenue loss if unmanaged.  
 
 ---
 
@@ -45,7 +46,8 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 <p align="center">
   <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_contract.png?raw=true" width="500"/>
 </p>  
-**Insight**: Customers on **month-to-month contracts** churned the most. Incentivizing them to move to **annual or multi-year contracts** could dramatically reduce churn.  
+
+*Insight*: Customers on **month-to-month contracts** churned the most. Incentivizing them to move to **annual or multi-year contracts** could dramatically reduce churn.  
 
 ---
 
@@ -53,15 +55,17 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 <p align="center">
   <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_payment.png?raw=true" width="500"/>
 </p>  
-**Insight**: Customers paying with **electronic checks** churned far more than those using auto-pay or credit cards. Promoting easier, reliable billing options could improve retention.  
+
+*Insight*: Customers paying with **electronic checks** churned far more than those using auto-pay or credit cards. Promoting easier, reliable billing options could improve retention.  
 
 ---
 
 ### 4. Feature Importance (Model Drivers)  
 <p align="center">
   <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/feature.png?raw=true" width="500"/>
-</p>  
-**Insight**: **Contract type, tenure, and payment method** are the top churn predictors. These are **business-controllable levers**, meaning telecoms can directly act on them.  
+</p> 
+
+*Insight*: **Contract type, tenure, and payment method** are the top churn predictors. These are **business-controllable levers**, meaning telecoms can directly act on them.  
 
 ---
 
@@ -69,7 +73,8 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 <p align="center">
   <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Confusion_matrix.png?raw=true" width="500"/>
 </p>  
-**Insight**: The model shows **high recall for churners** (≈89%), meaning it effectively identifies customers most at risk, enabling proactive retention campaigns.  
+
+*Insight*: The model shows **high recall for churners** (≈89%), meaning it effectively identifies customers most at risk, enabling proactive retention campaigns.  
 
 ---
 
