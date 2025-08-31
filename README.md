@@ -1,44 +1,112 @@
-# Customer_Churn_Prediction
+# 📉 Customer Churn Prediction – Telecom Industry  
 
-### Overview
-This study focuses on customer churn in the telecom industry. Customer churn occurs when customers discontinue their business with a company or service provider. Retaining customers is challenging for firms with a large customer base, as individually attending to each customer's needs is cost-ineffective. However, by identifying potential churners in advance, companies can minimize wasted resources and improve customer retention in a partially cost-effective manner. Predicting customer churn not only helps maintain market performance and position but also facilitates business growth and expansion. The larger the customer base, the lower the cost of acquisition, and the higher the profit.
+## 📌 Overview  
+Customer churn is one of the **biggest revenue risks** in the telecom industry. Acquiring a new customer costs **5–7x more** than retaining an existing one, and even a **1% reduction in churn can save millions annually**.  
 
-In this study, we analyze churn data from the telecom industry and aim to predict customers who are likely to discontinue their service. We utilize libraries such as scikit-learn, Matplotlib, pandas, seaborn, and NumPy.
+This project develops a **machine learning–based churn prediction model** that identifies customers at risk of leaving and reveals the **drivers behind churn behavior**. By combining predictive modeling with business insights, the project shows how telecom companies can:  
 
-### Problem Setting
-The main objective is to build a predictive model that accurately identifies customers likely to churn or leave the telecom company. This will enable the company to take proactive measures to retain these customers and reduce the churn rate.
+- 💰 **Protect recurring revenue** by proactively retaining high-value customers.  
+- 🎯 **Personalize retention offers** based on churn drivers.  
+- 📊 **Optimize marketing spend** by focusing only on at-risk customers.  
+- 📈 **Increase Customer Lifetime Value (CLV)** through targeted engagement.  
 
-### Problem Definition
-Telecom customer churn prediction is crucial in the telecommunications industry as it helps identify customers who are most likely to cancel their service or switch to a competitor. Churn can significantly impact a company's revenue. The goal of telecom customer churn prediction is to develop a model that accurately predicts which customers are at risk of churning so that the company can take proactive measures to retain them. Some of the tasks involved in this study are:
+---
 
-- Calculating the percentage of customers who churn and those who remain with active services.
+## 🔗 Dataset  
+Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction/input)  
 
-- Analyzing the data considering various factors that contribute to customer churn.
+**Features include:**  
+- Services each customer signed up for (phone, internet, fiber).  
+- Customer account details (tenure, payment method, charges).  
+- Demographics (gender, senior citizen, partner, dependents).  
+- Churn label (Yes/No).  
 
-- Selecting the best machine learning model to accurately classify churn and non-churn customers.
+---
 
+## 🛠️ Tech Stack  
+- **Python** (pandas, NumPy, seaborn, matplotlib)  
+- **scikit-learn** (Logistic Regression, LDA, Random Forest, etc.)  
+- **Data Preprocessing**: Missing value imputation, feature scaling.  
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, ROC-AUC.  
 
-### Data Source
-We utilized the Customer Churn Prediction dataset from Kaggle, which contains information about a telecommunication company's customers and their details. The dataset includes the following information:
+---
 
-- Customers who have left (churned).
-- Services each customer has signed up for, such as phone, internet, etc.
-- Customer account information, including tenure with the company and payment method.
-- Demographic information, such as gender and age.
+## 📸 Visual Insights  
 
-You can find the dataset at: [Customer Churn Prediction Dataset](https://www.kaggle.com/code/bhartiprasad17/customer-churn-prediction/input)
+### 1. Churn Distribution  
+<p align="center">
+  <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_M_F.png?raw=true" width="400"/>
+</p>  
+*Insight*: Roughly **26.5% of customers churned**, while 73.5% stayed. This represents a massive recurring revenue loss if unmanaged.  
 
-### Project Results
-The project aimed to explore and analyze the telecom customer churn dataset and develop a classification model to predict customer churn in the telecom industry. The dataset contained information about various factors that may contribute to customer churn, such as gender, age, contract type, payment method, and others. a model to accurately predict churn.
-The initial data exploration revealed that there were no missing values in the dataset, except for 11 missing records in the 'TotalCharges' column. These missing values were imputed using the mean value of the column. The correlation between different columns in the dataset was analyzed using a heatmap, which revealed a strong correlation between the 'tenure' and 'TotalCharges' columns, as expected.
-Various data visualization techniques, including pie charts, bar plots, and histograms, were used to explore the dataset further. The visualization results showed that customers on a month-to-month contract basis had a higher churn rate as compared to others.
-The project delivered a classification model with high accuracy in predicting customer churn. Several classification models were applied to the data to identify the one with the highest accuracy score. The accuracy of each model was calculated using K-fold cross- validation, with 10 splits. The metrics used were ROC AUC and accuracy score, with the results saved in a table for easier comparison. The logistic regression model was selected as the best model with an accuracy score of 86.9%. A plot of the logistic regression model scores versus the range of K values from 1 to 25 is also presented.
-The key findings and deliverables of the project were that the majority of customers were on a month-to-month contract and paid their bills electronically. Additionally, the dataset was balanced, with approximately 27% of customers churning. The project delivered data exploration and visualization techniques that could be used by the telecom company to better understand the factors that contribute to customer churn and take necessary actions to retain customers. Also, understanding of the most important features that lead to churn and recommendations on how to improve customer retention. The model can be used to predict customer churn and identify customers who are at high risk of leaving, allowing the telecom company to take steps to retain them.
+---
 
+### 2. Churn by Contract Type  
+<p align="center">
+  <img src="Images/churn_by_contract.png" alt="Churn by Contract Type" width="500"/>
+</p>  
+*Insight*: Customers on **month-to-month contracts** churned the most. Incentivizing them to move to **annual or multi-year contracts** could dramatically reduce churn.  
 
-### Impact Of the Project Outcomes
-The value created by our data mining effort in this project is significant in the sense that we were able to accurately predict which customers are at risk of churning and take proactive measures to retain them.
-The machine learning models we developed were able to achieve high accuracy rates and true positive scores, especially the Logistic Regression model and the Linear Discriminant Analysis model. Through our data exploration and mining, we were able to identify the factors that contribute to client churn and perform necessary data preprocessing techniques such as imputation and feature scaling. Our analysis of the dataset using various performance metrics such as accuracy, precision, recall, and F1- score using a confusion matrix, and ROC graphical representation helped us to compare and evaluate the performance levels of each model to the problem statement in question.
-The Logistic regression model with an accuracy score of 0.816 has proven to be the most accurate in predicting customer churn. The model also identifies the most important features that contribute to customer churn, such as contract type, payment method, and tenure. These insights can be used by the telecom company to take necessary actions to retain customers by offering more personalized services and incentives to customers who are at high risk of churning.
-In addition, the association rules generated from the dataset can help the company identify patterns and relationships between different variables that may contribute to customer churn. For example, the association rule analysis may reveal that customers who have a month-to-month contract and pay their bills electronically are more likely to churn. Armed with this knowledge, the company can take action to address these issues and reduce the churn rate.
-Overall, our data mining effort was able to generate valuable insights, patterns, and trends that can be used to improve customer retention rates in the telecommunications industry, resulting in a significant positive impact on the company's revenue.
+---
+
+### 3. Churn by Payment Method  
+<p align="center">
+  <img src="Images/churn_by_payment.png" alt="Churn by Payment Method" width="500"/>
+</p>  
+*Insight*: Customers paying with **electronic checks** churned far more than those using auto-pay or credit cards. Promoting easier, reliable billing options could improve retention.  
+
+---
+
+### 4. Feature Importance (Model Drivers)  
+<p align="center">
+  <img src="Images/feature_importance.png" alt="Feature Importance" width="500"/>
+</p>  
+*Insight*: **Contract type, tenure, and payment method** are the top churn predictors. These are **business-controllable levers**, meaning telecoms can directly act on them.  
+
+---
+
+### 5. Confusion Matrix (Model Performance)  
+<p align="center">
+  <img src="Images/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+</p>  
+*Insight*: The model shows **high recall for churners** (≈89%), meaning it effectively identifies customers most at risk, enabling proactive retention campaigns.  
+
+---
+
+## 🤖 Model Exploration & Results  
+We tested multiple ML models (Logistic Regression, LDA, Random Forest, Voting Classifier) with **10-fold cross-validation**:  
+
+- **Logistic Regression**: Accuracy = **81.6%**, ROC-AUC = **0.84**.  
+- **Linear Discriminant Analysis (LDA)**: Accuracy = **80.3%**, Sensitivity = **93%** (strong at detecting churners).  
+- **Ensemble methods** also performed well, but Logistic Regression was selected for simplicity, interpretability, and efficiency.  
+
+---
+
+## 💡 Business Impact  
+
+1. **Revenue Retention**  
+   - Targeting the **26% at-risk customers** with loyalty offers could save millions in subscription revenue annually.  
+
+2. **Targeted Retention Campaigns**  
+   - Example: Offer discounts on yearly contracts for high-risk monthly subscribers.  
+   - Encourage alternative payment methods for customers flagged as high churn risk.  
+
+3. **Operational Strategy**  
+   - Fiber optic service churn suggests **improving service reliability** could reduce dissatisfaction.  
+   - Onboarding programs for **new subscribers** could increase retention in the first 6 months.  
+
+4. **Marketing Efficiency**  
+   - Instead of blanket promotions, focus on **high-value churn-risk customers**, reducing wasted spend.  
+
+---
+
+## 📝 Lessons Learned  
+
+- Churn prediction is not just about accuracy — it’s about **turning predictions into retention strategy**.  
+- Features like contract type, payment method, and tenure are both **predictive and actionable**.  
+- Logistic Regression provided the best balance of **interpretability and accuracy**, making it production-ready.  
+- The approach is **scalable to other industries** (banking, SaaS, e-commerce) where churn impacts recurring revenue.  
+
+---
+
+✨ **In essence**: This project demonstrates how machine learning can directly **protect revenue, reduce acquisition costs, and extend customer lifetime value**. By predicting who is most likely to leave — and why — telecom providers can move from reactive churn management to proactive retention, creating a measurable impact on profitability.  
