@@ -43,7 +43,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ### 2. Churn by Contract Type  
 <p align="center">
-  <img src="Images/churn_by_contract.png" alt="Churn by Contract Type" width="500"/>
+  <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_contract.png?raw=true" width="500"/>
 </p>  
 *Insight*: Customers on **month-to-month contracts** churned the most. Incentivizing them to move to **annual or multi-year contracts** could dramatically reduce churn.  
 
@@ -51,7 +51,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ### 3. Churn by Payment Method  
 <p align="center">
-  <img src="Images/churn_by_payment.png" alt="Churn by Payment Method" width="500"/>
+  <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Churn_payment.png?raw=true" width="500"/>
 </p>  
 *Insight*: Customers paying with **electronic checks** churned far more than those using auto-pay or credit cards. Promoting easier, reliable billing options could improve retention.  
 
@@ -59,7 +59,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ### 4. Feature Importance (Model Drivers)  
 <p align="center">
-  <img src="Images/feature_importance.png" alt="Feature Importance" width="500"/>
+  <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/feature.png?raw=true" width="500"/>
 </p>  
 *Insight*: **Contract type, tenure, and payment method** are the top churn predictors. These are **business-controllable levers**, meaning telecoms can directly act on them.  
 
@@ -67,7 +67,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ### 5. Confusion Matrix (Model Performance)  
 <p align="center">
-  <img src="Images/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+  <img src="https://github.com/Viz1303/Customer_Churn_Prediction/blob/main/documents/Confusion_matrix.png?raw=true" width="500"/>
 </p>  
 *Insight*: The model shows **high recall for churners** (≈89%), meaning it effectively identifies customers most at risk, enabling proactive retention campaigns.  
 
