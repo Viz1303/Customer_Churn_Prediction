@@ -1,14 +1,14 @@
-# 📉 Customer Churn Prediction – Telecom Industry  
+# Predicting Customer Churn in Telecom: A Revenue Retention Strategy with Machine Learning 
 
-## 📌 Overview  
+## Overview  
 Customer churn is one of the **biggest revenue risks** in the telecom industry. Acquiring a new customer costs **5–7x more** than retaining an existing one, and even a **1% reduction in churn can save millions annually**.  
 
 This project develops a **machine learning–based churn prediction model** that identifies customers at risk of leaving and reveals the **drivers behind churn behavior**. By combining predictive modeling with business insights, the project shows how telecom companies can:  
 
-- 💰 **Protect recurring revenue** by proactively retaining high-value customers.  
-- 🎯 **Personalize retention offers** based on churn drivers.  
-- 📊 **Optimize marketing spend** by focusing only on at-risk customers.  
-- 📈 **Increase Customer Lifetime Value (CLV)** through targeted engagement.  
+- **Protect recurring revenue** by proactively retaining high-value customers.  
+- **Personalize retention offers** based on churn drivers.  
+- **Optimize marketing spend** by focusing only on at-risk customers.  
+- **Increase Customer Lifetime Value (CLV)** through targeted engagement.  
 
 ---
 
@@ -23,7 +23,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Python** (pandas, NumPy, seaborn, matplotlib)  
 - **scikit-learn** (Logistic Regression, LDA, Random Forest, etc.)  
 - **Data Preprocessing**: Missing value imputation, feature scaling.  
@@ -31,7 +31,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ---
 
-## 📸 Visual Insights  
+## Visual Insights  
 
 ### 1. Churn Distribution  
 <p align="center">
@@ -73,7 +73,7 @@ Source: [Kaggle Customer Churn Dataset](https://www.kaggle.com/code/bhartiprasad
 
 ---
 
-## 🤖 Model Exploration & Results  
+## Model Exploration & Results  
 We tested multiple ML models (Logistic Regression, LDA, Random Forest, Voting Classifier) with **10-fold cross-validation**:  
 
 - **Logistic Regression**: Accuracy = **81.6%**, ROC-AUC = **0.84**.  
@@ -82,7 +82,7 @@ We tested multiple ML models (Logistic Regression, LDA, Random Forest, Voting Cl
 
 ---
 
-## 💡 Business Impact  
+## Business Impact  
 
 1. **Revenue Retention**  
    - Targeting the **26% at-risk customers** with loyalty offers could save millions in subscription revenue annually.  
@@ -100,7 +100,7 @@ We tested multiple ML models (Logistic Regression, LDA, Random Forest, Voting Cl
 
 ---
 
-## 📝 Lessons Learned  
+## Lessons Learned  
 
 - Churn prediction is not just about accuracy — it’s about **turning predictions into retention strategy**.  
 - Features like contract type, payment method, and tenure are both **predictive and actionable**.  
@@ -109,4 +109,4 @@ We tested multiple ML models (Logistic Regression, LDA, Random Forest, Voting Cl
 
 ---
 
-✨ **In essence**: This project demonstrates how machine learning can directly **protect revenue, reduce acquisition costs, and extend customer lifetime value**. By predicting who is most likely to leave — and why — telecom providers can move from reactive churn management to proactive retention, creating a measurable impact on profitability.  
+**In essence**: This project demonstrates how machine learning can directly **protect revenue, reduce acquisition costs, and extend customer lifetime value**. By predicting who is most likely to leave — and why — telecom providers can move from reactive churn management to proactive retention, creating a measurable impact on profitability.  
